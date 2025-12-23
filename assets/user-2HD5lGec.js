@@ -1,0 +1,1 @@
+import{s as r,r as n}from"./index-CEiZuroB.js";const a=r("user",()=>{const e=n(localStorage.getItem("token")||""),o=n(null);return{token:e,userInfo:o,setToken:t=>{e.value=t,localStorage.setItem("token",t)},logout:()=>{e.value="",o.value=null,localStorage.removeItem("token")}}});export{a as u};
